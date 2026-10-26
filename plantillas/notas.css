@@ -1,0 +1,12 @@
+/* Plantilla "Notas": lista tipo app de notas, para guardar y compartir */
+.note{position:absolute;background:#FFFDF6;border-radius:40px;box-shadow:0 30px 70px rgba(80,50,0,.22);overflow:hidden}
+.note-bar{display:flex;justify-content:space-between;align-items:center;padding:30px 40px 10px;color:#C8901A;font-weight:700;font-size:28px}
+.note-date{padding:0 40px;color:#9b9384;font-size:22px}
+.note-title{padding:14px 40px 10px;font-family:'Bricolage';font-weight:800;font-size:60px;line-height:1.02;letter-spacing:-0.02em;color:#1d1b16}
+.note-list{list-style:none;padding:10px 40px 36px;display:flex;flex-direction:column;gap:24px}
+.note-list li{display:flex;gap:22px;align-items:flex-start;font-size:36px;line-height:1.28;color:#2b2822}
+.note-list .ck{flex:none;width:52px;height:52px;border-radius:50%;background:#F2A33A;display:flex;align-items:center;justify-content:center;margin-top:-2px}
+.note-list .n{font-family:'Bricolage';font-weight:800;color:#C8901A}
+.lines{background-image:repeating-linear-gradient(transparent 0 62px, #F1E8D2 62px 64px)}
+.sticker{position:absolute;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Caveat';font-weight:700;line-height:.95}
+.fade{position:absolute;left:0;right:0;bottom:0;height:200px;background:linear-gradient(transparent,#FFFDF6 75%)}

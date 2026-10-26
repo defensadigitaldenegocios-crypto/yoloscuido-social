@@ -1,0 +1,19 @@
+/* Plantilla "Chat": conversación tipo mensajería (genérica, sin marcas) */
+.phone{position:absolute;width:600px;border-radius:56px;background:#101B1A;padding:18px;box-shadow:0 40px 80px rgba(0,0,0,.35)}
+.screen{border-radius:40px;overflow:hidden;background:#E9E3D8;display:flex;flex-direction:column}
+.chat-head{background:#123F3A;color:#fff;display:flex;align-items:center;gap:18px;padding:30px 28px 24px}
+.avatar{width:64px;height:64px;border-radius:50%;background:#F2A33A;color:#13302C;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:26px}
+.chat-head .name{font-weight:700;font-size:28px}
+.chat-head .status{font-size:20px;opacity:.75}
+.chat-body{padding:28px 22px 34px;display:flex;flex-direction:column;gap:16px}
+.day{align-self:center;background:rgba(255,255,255,.75);color:#4a5b58;font-size:19px;font-weight:500;padding:6px 16px;border-radius:12px}
+.msg{max-width:84%;font-size:29px;line-height:1.28;padding:16px 22px 12px;border-radius:24px;position:relative}
+.msg .t{display:block;text-align:right;font-size:17px;color:#6c7b78;margin-top:4px}
+.in{align-self:flex-start;background:#fff;border-top-left-radius:6px}
+.out{align-self:flex-end;background:#CDEFD9;border-top-right-radius:6px}
+.typing{align-self:flex-start;background:#fff;border-radius:24px;padding:18px 24px;display:flex;gap:8px}
+.typing i{width:12px;height:12px;border-radius:50%;background:#9aa7a4;display:block}
+.notif{background:#fff;border-radius:26px;padding:24px 26px;display:flex;gap:20px;align-items:flex-start;box-shadow:0 2px 0 rgba(0,0,0,.05)}
+.notif .ic{width:64px;height:64px;flex:none;border-radius:18px;background:#0F4C45;display:flex;align-items:center;justify-content:center}
+.notif b{display:block;font-size:28px;color:#13302C}
+.notif span{display:block;font-size:23px;color:#4A5E5B;line-height:1.3;margin-top:4px}
