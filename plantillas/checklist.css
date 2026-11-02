@@ -1,0 +1,16 @@
+/* Plantilla "Checklist / Kit": tabla con clip y hoja de papel, para guardar */
+:root{--kraft:#EADBC2; --kraft-2:#DCC7A6; --forest:#24432F; --forest-2:#3C6B4C; --tomato:#E4572E; --board:#9A6B43; --hl:#FFE36E}
+.board{position:absolute;background:var(--board);border-radius:36px;padding:34px 26px 26px;box-shadow:0 30px 70px rgba(60,35,10,.35)}
+.clip{position:absolute;left:50%;top:-34px;transform:translateX(-50%);width:240px;height:84px;border-radius:20px 20px 14px 14px;background:linear-gradient(#D7DADF,#9EA4AD);box-shadow:0 8px 14px rgba(0,0,0,.25)}
+.clip:after{content:"";position:absolute;left:80px;right:80px;top:16px;height:22px;border-radius:12px;background:#6D737C}
+.paper{background:#FFFDF8;border-radius:16px;height:100%;padding:56px 44px 30px;position:relative}
+.ptitle{font-family:'Bricolage';font-weight:800;font-size:44px;color:var(--forest);letter-spacing:-.01em;line-height:1.05}
+.psub{font-size:22px;color:#8a7a62;font-weight:700;letter-spacing:2px;margin-top:8px}
+.items{list-style:none;display:flex;flex-direction:column;gap:34px;margin-top:36px}
+.items li{display:flex;gap:26px;align-items:flex-start}
+.box{flex:none;width:58px;height:58px;border-radius:14px;border:5px solid var(--forest);display:flex;align-items:center;justify-content:center;margin-top:2px}
+.box.on{background:var(--forest)}
+.items b{display:block;font-family:'Bricolage';font-weight:800;font-size:40px;color:var(--forest);line-height:1.05;letter-spacing:-.01em}
+.items span{display:block;font-size:28px;line-height:1.32;color:#4d4436;margin-top:8px}
+.items .num{font-family:'Bricolage';font-weight:800;color:var(--tomato);margin-right:8px}
+.mark{background:linear-gradient(transparent 52%, var(--hl) 52% 92%, transparent 92%)}

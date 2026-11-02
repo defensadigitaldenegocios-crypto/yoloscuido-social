@@ -1,0 +1,14 @@
+/* Plantilla "Este o este": dos opciones lado a lado (perfil A vs perfil B) */
+:root{--peach:#FFF1E6; --coral:#FF5A47; --coral-deep:#D93A28; --navy:#1C2340; --navy-2:#3A4266; --mist:#E8E3F0}
+.pcard{position:absolute;background:#fff;border-radius:36px;box-shadow:0 26px 60px rgba(28,35,64,.18);overflow:hidden}
+.pcard .ph{display:flex;align-items:center;gap:20px;padding:28px 28px 18px}
+.pcard .av{flex:none;width:96px;height:96px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Bricolage';font-weight:800;font-size:38px}
+.pcard .nm{font-family:'Bricolage';font-weight:800;font-size:38px;color:var(--navy);letter-spacing:-.01em;line-height:1}
+.pcard .vf{display:inline-flex;align-items:center;gap:8px;margin-top:10px;font-size:21px;font-weight:700;padding:6px 14px;border-radius:999px}
+.pcard .bio{padding:4px 28px 18px;font-size:26px;line-height:1.3;color:#3d4360}
+.pcard .row{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:18px 28px;border-top:2px solid #F0ECF4;font-size:23px}
+.pcard .row span{color:#7a7f96;font-weight:500}
+.pcard .row b{color:var(--navy);text-align:right}
+.letter{position:absolute;width:118px;height:118px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Bricolage';font-weight:800;font-size:72px;box-shadow:0 14px 30px rgba(0,0,0,.2)}
+.vs{position:absolute;width:110px;height:110px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Bricolage';font-weight:800;font-size:44px;border:8px solid var(--peach)}
+.skel{height:22px;border-radius:11px;background:#ECE8F1;margin:14px 28px}
