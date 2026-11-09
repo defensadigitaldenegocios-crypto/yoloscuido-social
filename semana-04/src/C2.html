@@ -1,0 +1,29 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../plantillas/base.css"><link rel="stylesheet" href="../../plantillas/cuenta.css">
+<style>
+.slide{background:var(--night);color:var(--snow)}
+h1{position:absolute;left:72px;top:230px;width:940px;font-size:88px;color:var(--snow)}
+h1 em{font-style:normal;color:var(--gold)}
+.cal{position:absolute;left:72px;top:520px;width:600px;background:var(--snow);border-radius:32px;padding:30px 30px 34px;box-shadow:0 30px 60px rgba(0,0,0,.4);transform:rotate(-2deg);color:var(--night)}
+.cal .m{display:flex;justify-content:space-between;align-items:baseline;font-family:'Bricolage';font-weight:800;font-size:46px;letter-spacing:-1px;margin-bottom:16px}
+.cal .m span{font-family:'DM Sans';font-size:22px;font-weight:700;letter-spacing:2px;color:var(--pink)}
+.g{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;text-align:center}
+.g b{font-size:20px;color:#8A90AE;font-weight:700;padding-bottom:4px}
+.g div{font-weight:700;font-size:28px;padding:12px 0;border-radius:14px}
+.g .p{background:#FFE0F0;color:#B3126A}
+.g .s{background:var(--pink);color:#fff}
+.side{position:absolute;left:720px;top:560px;width:300px;font-size:34px;line-height:1.3;color:#D6DBF2;font-weight:500}
+.side b{color:var(--gold)}
+.foot{position:absolute;left:72px;bottom:80px;width:900px;font-size:40px;line-height:1.3;font-weight:500}
+.foot b{color:var(--pink)}
+</style></head><body><div class="slide">
+<svg class="lights" viewBox="0 0 1080 150"><path d="M-10 30 Q 270 130 540 40 T 1090 40" fill="none" stroke="#0B1029" stroke-width="4"/><g id="bulbs"></g></svg>
+<script>(function(){const g=document.getElementById("bulbs"),cols=["#FFC94D","#FF4FA3","#34C38F","#6FA8FF"];for(let i=0;i<14;i++){const t=i/13,x=-10+t*1100;let y;if(x<540){const u=(x+10)/550;y=(1-u)*(1-u)*30+2*(1-u)*u*130+u*u*40}else{const u=(x-540)/550;y=(1-u)*(1-u)*40+2*(1-u)*u*(-50)+u*u*40}const c=cols[i%4];g.innerHTML+=`<circle cx="${x}" cy="${y+22}" r="26" fill="${c}" opacity=".25"/><ellipse cx="${x}" cy="${y+22}" rx="11" ry="16" fill="${c}"/><rect x="${x-6}" y="${y+2}" width="12" height="8" rx="2" fill="#0B1029"/>`}})()</script>
+<div class="logo" style="position:absolute;left:72px;top:150px;color:var(--snow)">Yolos<span style="color:var(--gold)">Cuido</span></div>
+<div class="count" style="color:#AEB6DA;top:162px">2/4</div>
+<h1 class="display">Las familias no se organizan <em>el 16 de diciembre.</em></h1>
+<div class="cal"><div class="m">Diciembre <span>POSADAS 16–24</span></div>
+<div class="g"><b>L</b><b>M</b><b>M</b><b>J</b><b>V</b><b>S</b><b>D</b><div class="e"></div><div class="">1</div><div class="">2</div><div class="">3</div><div class="">4</div><div class="">5</div><div class="">6</div><div class="">7</div><div class="">8</div><div class="">9</div><div class="">10</div><div class="">11</div><div class="">12</div><div class="">13</div><div class="">14</div><div class="">15</div><div class="p s">16</div><div class="p">17</div><div class="p">18</div><div class="p">19</div><div class="p">20</div><div class="p">21</div><div class="p">22</div><div class="p">23</div><div class="p">24</div><div class="">25</div><div class="">26</div><div class="">27</div><div class="">28</div><div class="">29</div><div class="">30</div><div class="">31</div></div></div>
+<div class="side">Se organizan <b>antes</b>: quién va a la posada, quién viaja, quién se queda con los niños.</div>
+<p class="foot">Por eso tu perfil tiene que estar listo <b>antes</b>. Y 32 días alcanzan, si empiezas hoy.</p>
+</div></body></html>

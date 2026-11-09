@@ -11,8 +11,11 @@ Cada semana usa **3 formatos distintos** (uno por carrusel) y nunca repite el mi
 | **Este o este** (esteoeste.css) | semana-03/src/A*.html | Dos perfiles/opciones A vs B, votación | "Comenta A o B" |
 | **Mito vs Realidad** (mito.css) | semana-03/src/B*.html | Romper objeciones con hechos | "Comenta el número 1-4" |
 | **Checklist / Kit** (checklist.css) | semana-03/src/C*.html | Listas útiles para guardar (tabla con clip) | "Guárdalo y mándaselo" |
+| **Etiqueta / Oferta** (oferta.css) | semana-04/src/A*.html | Editorial de fechas comerciales (Buen Fin, rebajas): etiquetas de precio con fechas | "Mándaselo a tu amiga" |
+| **Antes / Después** (antesdespues.css) | semana-04/src/B*.html | Dolor reconocible (gris) vs. hechos de YolosCuido (coral) | "Comenta el número que te pasó" |
+| **Cuenta regresiva** (cuenta.css) | semana-04/src/C*.html | Número gigante + plan con fechas reales (posadas, regreso a clases) | "Comenta en qué semana vas" + guardar |
 
-Formatos nuevos a crear cuando toque (mantener la misma calidad): **Antes / Después**, **Pregunta abierta** (tipografía gigante + "responde en comentarios"), **Tweet/captura de opinión**.
+Formatos nuevos a crear cuando toque (mantener la misma calidad): **Pregunta abierta** (tipografía gigante + "responde en comentarios"), **Tweet/captura de opinión**.
 
 ## Reglas visuales
 - 1080×1350. Todo pasa por base.css (fuentes locales en /fonts, colores en :root).
@@ -20,7 +23,7 @@ Formatos nuevos a crear cuando toque (mantener la misma calidad): **Antes / Desp
 - Portada: gancho de 4–9 palabras, enorme (100–150px), con una palabra en color de acento. Un elemento de intriga (sticker, nota, burbuja).
 - La lámina 2 debe abrir un "loop" ("Dos semanas después…", "van 4… y faltan").
 - Cierre: CTA concreta + mecánica de interacción + yoloscuido.com.
-- Paleta por formato: Chat = teal profundo/cream/ámbar · Notas = amarillo sol/papel · Este o este = durazno/coral/azul marino · Mito = rojo apagado/teal/cream · Checklist = kraft/verde bosque/tomate · Editorial = según la temporada (Día de Muertos: ciruela/cempasúchil/magenta).
+- Paleta por formato: Chat = teal profundo/cream/ámbar · Notas = amarillo sol/papel · Este o este = durazno/coral/azul marino · Mito = rojo apagado/teal/cream · Checklist = kraft/verde bosque/tomate · Oferta = amarillo sol/tomate/negro · Antes/Después = pizarra gris → coral/marino · Cuenta regresiva = azul noche/oro/rosa piñata · Editorial = según la temporada (Día de Muertos: ciruela/cempasúchil/magenta).
 - Nada de texto debajo de la modelo; revisar cada imagen con Read antes de publicar.
 - Sin emojis dentro de las láminas (la fuente no los dibuja); sí en el pie de foto.
 

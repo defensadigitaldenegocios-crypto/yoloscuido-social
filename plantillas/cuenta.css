@@ -1,0 +1,9 @@
+/* Formato "Cuenta regresiva" · noche de posada: azul noche, oro, rosa piñata */
+:root{--night:#141B3A;--night-2:#222C5C;--gold:#FFC94D;--pink:#FF4FA3;--leaf:#34C38F;--snow:#FFF8EE}
+.lights{position:absolute;left:0;top:0;width:1080px;height:150px}
+.big{font-family:'Bricolage';font-weight:800;letter-spacing:-0.06em;line-height:.8}
+.note{font-family:'Caveat';font-weight:700}
+.week{display:flex;gap:28px;align-items:center;background:rgba(255,255,255,.07);border:2px solid rgba(255,255,255,.12);border-radius:28px;padding:26px 30px}
+.week .w{flex:none;width:130px;text-align:center;font-family:'Bricolage';font-weight:800;color:var(--night);background:var(--gold);border-radius:20px;padding:12px 0 10px;line-height:1}
+.week .w small{display:block;font-family:'DM Sans';font-weight:700;font-size:18px;letter-spacing:2px}
+.week .w span{font-size:58px}

@@ -1,0 +1,8 @@
+/* Formato "Antes / Después" · gris apagado vs coral cálido */
+:root{--slate:#3E4652;--slate-2:#59626F;--fog:#E6E7EA;--coral:#FF6B4A;--coral-deep:#D9472A;--navy:#1D2340;--cream2:#FFF6EC}
+.grain{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.06) 1.5px,transparent 1.7px);background-size:18px 18px}
+.bubble{position:absolute;background:#F2F3F5;color:#2B313A;border-radius:34px 34px 34px 8px;padding:24px 32px;font-size:33px;font-weight:500;line-height:1.2;box-shadow:0 16px 30px rgba(0,0,0,.28)}
+.bubble small{display:block;font-size:22px;color:#8A919C;margin-top:8px;font-weight:700;letter-spacing:.5px}
+.stamp{position:absolute;border:6px solid currentColor;border-radius:14px;padding:6px 22px;font-family:'Bricolage';font-weight:800;font-size:54px;letter-spacing:2px}
+.row{display:flex;gap:26px;align-items:flex-start}
+.num{flex:none;width:74px;height:74px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Bricolage';font-weight:800;font-size:40px}

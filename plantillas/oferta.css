@@ -1,0 +1,12 @@
+/* Formato "Etiqueta / Oferta" · editorial de temporada comercial (Buen Fin) */
+:root{--tom:#E8432E;--tom-deep:#B52A18;--yel:#FFD24D;--ink2:#1B1B1F;--paper:#FFF8EC}
+.halftone{position:absolute;inset:0;background-image:radial-gradient(rgba(27,27,31,.10) 2.4px,transparent 2.6px);background-size:26px 26px}
+.tag{position:absolute;display:flex;flex-direction:column;justify-content:center;background:var(--tom);color:#fff;
+ clip-path:polygon(70px 0,100% 0,100% 100%,70px 100%,0 50%);padding:22px 40px 22px 110px;filter:drop-shadow(0 14px 22px rgba(0,0,0,.25))}
+.tag::before{content:"";position:absolute;left:44px;top:50%;width:26px;height:26px;margin-top:-13px;border-radius:50%;background:var(--paper)}
+.tag .k{font-weight:700;font-size:24px;letter-spacing:3px;opacity:.9}
+.tag .v{font-family:'Bricolage';font-weight:800;font-size:64px;letter-spacing:-1.5px;line-height:1}
+.tag.yel{background:var(--yel);color:var(--ink2)}
+.tag.ink{background:var(--ink2);color:#fff}
+.tag.paper{background:var(--paper);color:var(--ink2)}
+.string{position:absolute;height:4px;background:var(--ink2);transform-origin:left center}

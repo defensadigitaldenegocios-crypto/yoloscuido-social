@@ -1,0 +1,23 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../plantillas/base.css"><link rel="stylesheet" href="../../plantillas/cuenta.css">
+<style>
+.slide{background:radial-gradient(90% 70% at 70% 30%,var(--night-2) 0%,var(--night) 70%);color:var(--snow)}
+.pre{position:absolute;left:72px;top:250px;font-family:'Bricolage';font-weight:800;font-size:84px;letter-spacing:-2px;color:var(--snow)}
+.big{position:absolute;left:52px;top:330px;font-size:560px;color:var(--gold);text-shadow:0 20px 60px rgba(255,201,77,.25)}
+.post{position:absolute;left:72px;top:800px;width:620px;font-family:'Bricolage';font-weight:800;font-size:96px;letter-spacing:-2.5px;line-height:.98}
+.post em{font-style:normal;color:var(--pink)}
+.note{position:absolute;left:80px;top:1040px;font-size:52px;color:var(--gold);transform:rotate(-3deg);width:560px;line-height:1}
+.cutout{right:0px;bottom:0;height:990px}
+.swipe{left:72px;right:auto;bottom:64px;background:var(--pink);color:#fff;padding:14px 28px;border-radius:999px}
+</style></head><body><div class="slide">
+<svg class="lights" viewBox="0 0 1080 150"><path d="M-10 30 Q 270 130 540 40 T 1090 40" fill="none" stroke="#0B1029" stroke-width="4"/><g id="bulbs"></g></svg>
+<script>(function(){const g=document.getElementById("bulbs"),cols=["#FFC94D","#FF4FA3","#34C38F","#6FA8FF"];for(let i=0;i<14;i++){const t=i/13,x=-10+t*1100;let y;if(x<540){const u=(x+10)/550;y=(1-u)*(1-u)*30+2*(1-u)*u*130+u*u*40}else{const u=(x-540)/550;y=(1-u)*(1-u)*40+2*(1-u)*u*(-50)+u*u*40}const c=cols[i%4];g.innerHTML+=`<circle cx="${x}" cy="${y+22}" r="26" fill="${c}" opacity=".25"/><ellipse cx="${x}" cy="${y+22}" rx="11" ry="16" fill="${c}"/><rect x="${x-6}" y="${y+2}" width="12" height="8" rx="2" fill="#0B1029"/>`}})()</script>
+<div class="logo" style="position:absolute;left:72px;top:150px;color:var(--snow)">Yolos<span style="color:var(--gold)">Cuido</span></div>
+<div class="count" style="color:#AEB6DA;top:162px">1/4</div>
+<div class="pre">Faltan</div>
+<div class="big">32</div>
+<div class="post">días para las <em>posadas.</em></div>
+<div class="note">¿tu perfil ya está listo?</div>
+<img class="cutout" src="../../modelo-recorte/08-celebrando.png" alt="">
+<div class="swipe">Tu plan <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+</div></body></html>
