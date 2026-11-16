@@ -1,0 +1,22 @@
+/* Plantilla "Captura de opinión": post/hilo con una opinión fuerte de la marca + votación SÍ/NO */
+:root{--lav:#ECE6FF; --lav-2:#D9CEFF; --violet:#5B2EE5; --violet-deep:#2A1572; --night:#17122B; --lime:#C8F560; --gray:#6E6888}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(91,46,229,.07) 2px,transparent 2px),linear-gradient(90deg,rgba(91,46,229,.07) 2px,transparent 2px);background-size:54px 54px}
+.post{position:absolute;background:#fff;border-radius:44px;box-shadow:0 30px 70px rgba(42,21,114,.20);padding:40px 44px 30px}
+.post .who{display:flex;align-items:center;gap:20px}
+.post .av{flex:none;width:92px;height:92px;border-radius:50%;background:var(--night);display:flex;align-items:center;justify-content:center;font-family:'Bricolage';font-weight:800;font-size:30px;color:#fff;letter-spacing:-.5px}
+.post .av span{color:var(--lime)}
+.post .nm{font-family:'Bricolage';font-weight:800;font-size:36px;color:var(--night);line-height:1;display:flex;align-items:center;gap:10px}
+.post .hd{font-size:25px;color:var(--gray);margin-top:8px;font-weight:500}
+.post .tx{font-family:'Bricolage';font-weight:800;color:var(--night);letter-spacing:-.025em;line-height:1.0;margin-top:34px}
+.post .tx mark{background:linear-gradient(transparent 52%,var(--lime) 52%);color:inherit;padding:0 4px}
+.post .acts{display:flex;gap:48px;margin-top:34px;padding-top:24px;border-top:2px solid #EFEBF8;color:var(--gray)}
+.post .acts svg{display:block}
+.badge{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:var(--violet)}
+.tag{position:absolute;display:inline-flex;align-items:center;gap:12px;font-weight:700;font-size:26px;letter-spacing:3px;padding:14px 24px;border-radius:999px}
+.yn{position:absolute;display:flex;gap:16px}
+.yn div{width:150px;height:150px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Bricolage';font-weight:800;font-size:58px;box-shadow:0 16px 34px rgba(0,0,0,.2)}
+.thread{position:absolute;display:flex;flex-direction:column;gap:22px}
+.thread .it{display:flex;gap:26px;align-items:flex-start;background:#fff;border-radius:30px;padding:24px 30px;box-shadow:0 14px 34px rgba(42,21,114,.12)}
+.thread .t{flex:none;width:118px;font-family:'Bricolage';font-weight:800;font-size:34px;color:var(--violet);line-height:1.15}
+.thread .d{font-size:33px;line-height:1.28;color:var(--night)}
+.thread .d span{color:var(--gray)}
