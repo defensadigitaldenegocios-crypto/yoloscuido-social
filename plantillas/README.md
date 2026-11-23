@@ -15,8 +15,10 @@ Cada semana usa **3 formatos distintos** (uno por carrusel) y nunca repite el mi
 | **Antes / Después** (antesdespues.css) | semana-04/src/B*.html | Dolor reconocible (gris) vs. hechos de YolosCuido (coral) | "Comenta el número que te pasó" |
 | **Cuenta regresiva** (cuenta.css) | semana-04/src/C*.html | Número gigante + plan con fechas reales (posadas, regreso a clases) | "Comenta en qué semana vas" + guardar |
 | **Captura de opinión** (opinion.css) | semana-05/src/A*.html | Post de la marca con opinión fuerte + hilo (horario real) + hechos | "Comenta SÍ o NO" |
+| **Test / Quiz** (quiz.css) | semana-06/src/A*.html | 3 preguntas A/B/C + resultados por mayoría (identidad) | "Comenta tu letra" + comparar con una amiga |
+| **Perfil anotado** (perfil.css) | semana-06/src/B*.html | Variante de Checklist: tarjeta de perfil revisada con pluma roja | "Total __/5" + guardar |
+| **Pregunta abierta** (pregunta.css) | semana-06/src/C*.html | Tipografía gigante + barra de comentario; ejemplos posibles (no testimonios) | "Cuéntanos la tuya" / "yo también" |
 
-Formatos nuevos a crear cuando toque (mantener la misma calidad): **Pregunta abierta** (tipografía gigante + "responde en comentarios").
 Variantes ya probadas: Este o este desde la mirada de la niñera eligiendo familia (semana-05/src/B*), Notas con gancho grande fuera de la nota + calendario de fechas (semana-05/src/C*).
 
 ## Reglas visuales
@@ -25,7 +27,7 @@ Variantes ya probadas: Este o este desde la mirada de la niñera eligiendo famil
 - Portada: gancho de 4–9 palabras, enorme (100–150px), con una palabra en color de acento. Un elemento de intriga (sticker, nota, burbuja).
 - La lámina 2 debe abrir un "loop" ("Dos semanas después…", "van 4… y faltan").
 - Cierre: CTA concreta + mecánica de interacción + yoloscuido.com.
-- Paleta por formato: Chat = teal profundo/cream/ámbar · Notas = amarillo sol/papel · Este o este = durazno/coral/azul marino · Mito = rojo apagado/teal/cream · Checklist = kraft/verde bosque/tomate · Oferta = amarillo sol/tomate/negro · Antes/Después = pizarra gris → coral/marino · Cuenta regresiva = azul noche/oro/rosa piñata · Opinión = lavanda/violeta/lima · Editorial = según la temporada (Día de Muertos: ciruela/cempasúchil/magenta).
+- Paleta por formato: Chat = teal profundo/cream/ámbar · Notas = amarillo sol/papel · Este o este = durazno/coral/azul marino · Mito = rojo apagado/teal/cream · Checklist = kraft/verde bosque/tomate · Oferta = amarillo sol/tomate/negro · Antes/Después = pizarra gris → coral/marino · Cuenta regresiva = azul noche/oro/rosa piñata · Opinión = lavanda/violeta/lima · Test = vino/chicle/limón · Perfil anotado = cielo/marino/pluma roja · Pregunta abierta = papel/negro/naranja fuego · Editorial = según la temporada (Día de Muertos: ciruela/cempasúchil/magenta).
 - Nada de texto debajo de la modelo; revisar cada imagen con Read antes de publicar.
 - Sin emojis dentro de las láminas (la fuente no los dibuja); sí en el pie de foto.
 

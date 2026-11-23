@@ -1,0 +1,16 @@
+/* Plantilla "Perfil anotado" (variante Checklist): tarjeta de perfil revisada con pluma roja + marcatextos */
+:root{--sky:#CFE5FF; --sky-2:#B5D6FB; --navy:#0E2249; --navy-2:#24407A; --pen:#E0402B; --hl:#FFEA5C; --soft:#5D6B88}
+.pcard{position:absolute;background:#fff;border-radius:40px;box-shadow:0 30px 70px rgba(14,34,73,.22);padding:38px 38px 32px}
+.pcard .top{display:flex;gap:24px;align-items:center}
+.av{flex:none;width:130px;height:130px;border-radius:50%;background:url(avatar.jpg) center/cover;border:5px solid #fff;box-shadow:0 0 0 4px var(--sky-2)}
+.pname{font-family:'Bricolage';font-weight:800;font-size:40px;color:var(--navy);line-height:1}
+.ver{display:inline-flex;align-items:center;gap:8px;margin-top:12px;background:#E3F6EA;color:#1B7A43;font-weight:700;font-size:23px;padding:7px 16px;border-radius:999px}
+.stars{color:#F2A900;font-size:30px;letter-spacing:3px;margin-top:10px}
+.stars span{color:var(--soft);font-size:22px;letter-spacing:0;font-weight:700;margin-left:6px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chips span{background:var(--sky);color:var(--navy);font-weight:700;font-size:23px;padding:9px 18px;border-radius:999px}
+.lbl{font-weight:700;font-size:20px;letter-spacing:3px;color:var(--soft);margin-top:26px}
+.bars i{display:block;height:16px;border-radius:8px;background:#E7ECF5;margin-top:12px}
+.pen{position:absolute;font-family:'Caveat';font-weight:700;color:var(--pen);line-height:.95}
+.pn{position:absolute;width:62px;height:62px;border-radius:50%;border:4px solid var(--pen);color:var(--pen);font-family:'Bricolage';font-weight:800;font-size:32px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.85)}
+.mk{background:linear-gradient(transparent 55%,var(--hl) 55% 92%,transparent 92%)}

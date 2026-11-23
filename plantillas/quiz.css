@@ -1,0 +1,6 @@
+/* Plantilla "Test / Quiz": revista pop, 3 preguntas A/B/C + resultado por mayoría */
+:root{--wine:#4A0E2B; --wine-2:#6B1840; --bub:#FF8FB1; --bub-2:#FFC2D4; --paper:#FFF4EC; --lemon:#FFE45C; --ink2:#2B0818}
+.tagq{position:absolute;display:inline-flex;align-items:center;gap:12px;font-weight:700;font-size:25px;letter-spacing:3px;padding:14px 24px;border-radius:999px}
+.letter{flex:none;display:flex;align-items:center;justify-content:center;border-radius:50%;font-family:'Bricolage';font-weight:800}
+.la{background:var(--bub);color:var(--wine)} .lb{background:var(--lemon);color:var(--wine)} .lc{background:var(--paper);color:var(--wine)}
+.stars{position:absolute;inset:0;background-image:radial-gradient(rgba(255,143,177,.16) 3px,transparent 3.5px);background-size:60px 60px}
